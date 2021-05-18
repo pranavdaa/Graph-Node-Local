@@ -1,7 +1,7 @@
 # Graph-Node-Local
 docker-compose.yml is the only file required to run a graph node locally
 
-## Installation and run graph-node locally
+## Steps to run graph-node locally
 1. git clone repo
 2. docker-compose up
 
