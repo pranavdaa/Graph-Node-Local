@@ -8,7 +8,7 @@ docker-compose.yml is the only file required to run a graph node locally
 ## Deploy Subgraph on the local graph node deployment
 1. graph create git_user_name/subgraph_name --node http://127.0.0.1:8020
 2. graph deploy git_user_name/subgraph_name --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020
-
+3. Test using graphiq playgroup - http://localhost:8030/graphql 
 ## Connecting the LocalGraph Node with Local Blockchain Instance(Ganache)
 1. Run Ganache -  ganache-cli -h 0.0.0.0
 
